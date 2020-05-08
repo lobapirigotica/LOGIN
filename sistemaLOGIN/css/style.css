@@ -1,0 +1,287 @@
+*{
+	max-width:100%;
+	margin: 0;
+  	padding: 0;
+  	box-sizing: border-box;
+}
+a {
+    text-decoration:none;
+    color: inherit;
+}
+a:hover {
+    color: red;
+}
+@media only screen and (min-width: 801px){
+    body{
+        background-color: whitesmoke;
+    }
+    #titulo{
+        font-size: 4vw;
+        text-align: center;
+        float: left;
+        position: relative;
+        margin-top: 7vw;
+        left: 25%;
+        width: 50%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       
+    }
+    #mostrado{
+        float: right;
+        position: relative;
+        font-family: monospace;
+        font-size: 1.5vw;
+        right: 5%;
+        
+    }
+    #sair{
+        position: absolute;
+        float: right;
+        right: 5%;
+        width: 6%;
+        border: black;
+        border-width: 2px;
+        border-style: solid;
+        border-radius: 25px;
+        text-align: center;
+        color: black;
+        margin-top: 2%;
+        font-size: 1.2vw;
+    }
+    #formulario{
+        width: 30%;
+        position: relative;
+        float: left;
+        left: 35%;
+        border: #CFCFCF;
+        border-width: 1px;
+        border-radius: 2px;
+        border-style: solid;
+        text-align: center;
+        margin-top: 5vw;
+    }
+    #titulo_formulario{
+        margin-top: 4vw;
+        font-size: 1.6vw;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    #barra_nome{
+        padding-top: 3vw;
+    }
+    #barra_email{
+        font-size: 1.2vw;
+        padding: 0.5vw;
+        border-color: #FF6A6A;
+    }
+    #barra_senha_externa{
+        padding-top: 1vw;
+    }
+    #barra_senha{
+        font-size: 1.2vw;
+        padding: 0.5vw;
+        border-color: #FF6A6A;
+    }
+    #barra_enviar_externo{
+        padding: 1vw;
+        float: right;
+        padding-right: 6.6vw;
+    }
+    #barra_enviar{
+        font-size: 0.9vw;
+        padding: 0.4vw;      
+        border-color: black;
+        border-radius: 6px;
+    }
+    #nao_cadastrado{
+        position: relative;
+        margin-top: 8vw;
+        float: left;
+    }
+    #criar_conta{
+        margin-top: 4vw;
+        font-size: 1.6vw;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    #barra_email_cadastro_externo{
+        padding-top: 2vw;
+    }
+    #barra_email_cadastro{
+        font-size: 1.2vw;
+        padding: 0.5vw;
+        border-color: #FF6A6A;
+    }
+    #barra_senha_cadastro_externo{
+        padding-top: 2vw;
+    }
+    #barra_senha_cadastro{
+        font-size: 1.2vw;
+        padding: 0.5vw;
+        border-color: #FF6A6A;
+    }
+    #barra_senha2_cadastro_externo{
+        padding-top: 2vw;
+    }
+    #barra_senha2_cadastro{
+        font-size: 1.2vw;
+        padding: 0.5vw;
+        border-color: #FF6A6A;
+    }
+    #barra_enviar_cadastro_externo{
+        padding: 1vw;
+        float: right;
+        padding-right: 6.6vw;
+    }
+    #barra_enviar_cadastro{
+        font-size: 0.9vw;
+        padding: 0.4vw;      
+        border-color: black;
+        border-radius: 6px;
+    }
+    #mensagem1{
+        margin-top: 2vw;
+        text-align: center;
+        float: left;
+        position: relative;
+        width: 40%;
+        font-size: 2vw;      
+    }
+
+
+}
+@media only screen and (max-width: 800px){
+    body{
+        background-color: whitesmoke;
+    }
+    #titulo{
+        font-size: 4vw;
+        text-align: center;
+        float: left;
+        position: relative;
+        margin-top: 5vw;
+        left: 25%;
+        width: 50%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       
+    }
+    #mostrado{
+        float: right;
+        position: relative;
+        font-family: monospace;
+        font-size: 2vw;
+        right: 5%;
+        
+    }
+    #sair{
+        position: absolute;
+        float: left;
+        left: 5%;
+        width: 10%;
+        border: black;
+        border-width: 2px;
+        border-style: solid;
+        border-radius: 25px;
+        text-align: center;
+        font-size: 1.8vw;
+    }
+    #formulario{
+        width: 60%;
+        position: relative;
+        float: left;
+        left: 15%;
+        border: #CFCFCF;
+        border-width: 1px;
+        border-radius: 2px;
+        border-style: solid;
+        text-align: center;
+        margin-top: 5vw;
+    }
+    #titulo_formulario{
+        margin-top: 4vw;
+        font-size: 3vw;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    #barra_nome{
+        padding-top: 3vw;
+    }
+    #barra_email{
+        font-size: 3vw;
+        padding: 0.5vw;
+        border-color: #FF6A6A;
+    }
+    #barra_senha_externa{
+        padding-top: 2vw;
+    }
+    #barra_senha{
+        font-size: 3vw;
+        padding: 0.5vw;
+        border-color: #FF6A6A;
+    }
+    #barra_enviar_externo{
+        padding: 1.5vw;
+        float: right;
+        padding-right: 11vw;
+        position: relative;
+    }
+    #barra_enviar{
+        font-size: 2vw;
+        padding: 0.4vw;
+        
+        border-color: black;
+        border-radius: 6px;
+    }
+    #nao_cadastrado{
+        position: relative;
+        margin-top: 8vw;
+        float: left;
+    } 
+    #criar_conta{
+        margin-top: 4vw;
+        font-size: 3vw;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    #barra_email_cadastro_externo{
+        padding-top: 4vw;
+    }
+    #barra_email_cadastro{
+        font-size: 2.5vw;
+        padding: 0.5vw;
+        border-color: #FF6A6A;
+    }
+    #barra_senha_cadastro_externo{
+        padding-top: 4vw;
+    }
+    #barra_senha_cadastro{
+        font-size: 2.5vw;
+        padding: 0.5vw;
+        border-color: #FF6A6A;
+    }
+    #barra_senha2_cadastro_externo{
+        padding-top: 4vw;
+    }
+    #barra_senha2_cadastro{
+        font-size: 2.5vw;
+        padding: 0.5vw;
+        border-color: #FF6A6A;
+    }
+    #barra_enviar_cadastro_externo{
+        padding: 1vw;
+        float: right;
+        padding-right: 15vw;
+        padding-top: 2vw;
+    }
+    #barra_enviar_cadastro{
+        font-size: 1.8vw;
+        padding: 0.4vw;      
+        border-color: black;
+        border-radius: 6px;
+    }
+    #mensagem1{
+        margin-top: 1vw;
+        text-align: center;
+        float: left;
+        position: relative;
+        font-size: 3vw;      
+    }
+
+    
+}
